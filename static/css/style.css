@@ -1,76 +1,193 @@
-body {
-  background-color: var(--bg-color);
-  color: var(--font-color) !important;
+#mekletArstu {
+    position: fixed;
+    width: 40%;
+    height: 20%;
+    left: 52.5%;
+    bottom: 130px;
+    background: #D43D3D;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 42px;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
-:root {
-    --bg-color: white;
-    --hover-color: rgb(162, 162, 162);
-    --nav-color: rgb(211, 211, 211);
-    --font-color: black;
+#pieteiktViziti {
+    position: fixed;
+    width: 40%;
+    height: 20%;
+    left: 52.5%;
+    bottom: 530px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    background: #DE8706;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
-[data-theme="dark"] {
-    --bg-color: #2a2a2a;
-    --hover-color: #111;
-    --nav-color: #333;
-    --font-color: white;
+#mekletViziti {
+    position: fixed;
+    width: 40%;
+    height: 20%;
+    left: 52.5%;
+    bottom: 330px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-size: 60px;
+    color: white;
+    background: #CEDD1E;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
-
-.dark-button {
-	position: -webkit-fixed;
-	position: fixed;
-	right: 10px;
-	bottom: 10px;
-	transition-duration: 0.5s;
-	border: none;
-	border-radius: 50%;
-	background-color: transparent;
+#meklet {
+    position: fixed;
+    width: 25%;
+    height: 3%;
+    border: 1px solid black;
+    outline: none;
+    background:#E4DCDC;
+    font-family: Roboto;
+    font-size: 20px;
+    top: 8%;
+    background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
 }
 
-.dark-image {
-	filter: invert(0);
-	background-color: transparent;
-	opacity: .4;
-	transition: opacity 0.5s;
-	width: 40px;
-	height: 40px;
+#meklesana {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.dark-image:hover {
-	opacity: .9;
+#topButtons {
+    position: fixed;
+    right: 815px;
+    top: 150px;
 }
 
-.dark-mode .dark-image {
-	filter: invert(100%);
+#mekletArstu2 {
+    position: fixed;
+    left: 717px;
+    width: 140px;
+    height: 35px;
+    font-family: Roboto;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--nav-color);
+#pieteiktViziti2 {
+    position: fixed;
+    left: 891px;
+    width: 140px;
+    height: 35px;
+    font-family: Roboto;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
-li {
-  float: left;
+#mekletViziti2 {
+    position: fixed;
+    right: 717px;
+    width: 140px;
+    height: 35px;
+    font-family: Roboto;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+#ieietPortala {
+    position: fixed;
+    width: 140px;
+    height: 35px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-family: Roboto;
+    font-size: 20px;
+    right: 30px;
+    top: 175px;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+#virsraksts {
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    font-family: Roboto;
+    font-size: 24px;
 }
 
-.active {
-  background-color: var(--hover-color);
+#mainPhoto {
+    position: fixed;
+    width: 1900px;
+    left: 28px;
+}
+
+#fotografija {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#login {
+    position: fixed;
+    width: 15%;
+    height: 3%;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Roboto;
+    font-size: 16px;
+    top: 8%;
+    right: 30px;
+    font-size: 20px;
+}
+
+#parole {
+    position: fixed;
+    width: 15%;
+    height: 3%;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Roboto;
+    font-size: 16px;
+    top: 13%;
+    right: 30px;
+    font-size: 20px;
+}
+
+h2 {
+    position	: absolute;
+	top		: 0;
+	left		: 250px;
+	width		: 100%;
+    color: #af0202;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+#lasitVairak {
+    position	: absolute;
+	top		: 100px;
+	left		: 250px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #C92121;
+    color: #C92121;
+    font-family: Roboto;
+    font-size: 16px;
 }
