@@ -1,3 +1,3 @@
 # Flask template
-## Autors: Emīls Strēlis, Ivan Aļeškevičs, Mihails Bogomolovs
+## Autors: Emīls Strēlis, Ivans Aļeškevičs, Mihails Bogomolovs
 - sākums

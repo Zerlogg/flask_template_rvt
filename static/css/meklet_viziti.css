@@ -1,0 +1,318 @@
+body{
+    font-family: sans-serif;
+}
+
+#logo {
+    position: fixed;
+    top: 10px;
+}
+
+#meklet {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 150px;
+    top: 8%;
+    background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
+    background-color:#ffffff;
+}
+
+#meklesana {
+    position: fixed;
+    left: 600px;
+    top: 80px;
+}
+
+#meklet_viziti {
+    position: fixed;
+    left: -100px;
+    top: 290px;
+}
+
+#meklet_viziti_poga {
+    position: fixed;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 485px;
+    top: 288px;
+}
+
+#atcelt_viziti_poga {
+    position: fixed;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 60px;
+    top: 880px;
+}
+
+#drukat_viziti_poga {
+    position: fixed;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 310px;
+    top: 880px;
+}
+
+#vizites_nr {
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 150px;
+    top: 8%;
+    background-color:#ffffff;
+}
+
+#topButtons {
+    position: fixed;
+    left: 600px;
+    top: 80px;
+}
+
+#mekletArstu2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 750px;
+    
+}
+
+#pieteiktViziti2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 1120px;
+    
+}
+
+#mekletViziti2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 935px
+}
+
+#ieietPortala {
+    position: fixed;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 1765px;
+    top: 175px;
+}
+
+#virsraksts {
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    font-family: Sans-serif;
+    font-size: 24px;
+}
+
+#login {
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 16px;
+    top: 8%;
+    left: 1000px;
+    font-size: 20px;
+}
+
+#parole {
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 16px;
+    top: 50px;
+    left: 1000px;
+    font-size: 20px;
+}
+
+h2 {
+    position: absolute;
+	top	: 0;
+	left: 250px;
+	width: 100%;
+    color: #af0202;
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+}
+
+#top_background {
+    right: 50px;
+    background-color: #CEDD1E;
+    width: 100%;
+    height: 210px;
+}
+
+#vizites_nr_ievade {
+    position: fixed;
+    left: 50px;
+    top: 230px;
+    font-size: 26px;
+}
+
+#hr2 {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 340px;
+}
+
+#hr3 {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 350px;
+}
+
+#pacienta_vards_uzvards_lauks {
+    position: absolute;
+    top: 170px;
+    left: 152px;
+    width: 400px;
+    height: 30px;
+    background: #E4DCDC;
+    border: 1px solid black;
+}
+
+#vizites_numurs_lauks {
+    position: absolute;
+    top: 330px;
+    left: 152px;
+    width: 400px;
+    height: 30px;
+    background: #E4DCDC;
+    border: 1px solid black;
+}
+
+#slimnica_lauks {
+    position: absolute;
+    top: 490px;
+    left: 152px;
+    width: 400px;
+    height: 30px;
+    background: #E4DCDC;
+    border: 1px solid black;
+}
+
+#vizites_laiks_lauks {
+    position: absolute;
+    top: 170px;
+    left: 750px;
+    width: 400px;
+    height: 30px;
+    background: #E4DCDC;
+    border: 1px solid black;
+}
+
+#arsts_lauks {
+    position: absolute;
+    top: 330px;
+    left: 750px;
+    width: 400px;
+    height: 30px;
+    background: #E4DCDC;
+    border: 1px solid black;
+}
+
+#arsta_darbibas_joma_lauks {
+    position: absolute;
+    top: 490px;
+    left: 750px;
+    width: 400px;
+    height: 30px;
+    background: #E4DCDC;
+    border: 1px solid black;
+}
+
+#pacienta_vards_uzvards_teksts {
+    position: fixed;
+    left: 52px;
+    top: 400px;
+    font-size: 26px;
+}
+
+#vizites_numurs_teksts {
+    position: fixed;
+    left: 52px;
+    top: 560px;
+    font-size: 26px;
+}
+
+#slimnica_teksts {
+    position: fixed;
+    left: 52px;
+    top: 720px;
+    font-size: 26px;
+}
+
+#vizites_laiks_teksts {
+    position: fixed;
+    left: 650px;
+    top: 400px;
+    font-size: 26px;
+}
+
+#arsts_teksts {
+    position: fixed;
+    left: 650px;
+    top: 560px;
+    font-size: 26px;
+}
+
+#arsta_darbibas_joma_teksts {
+    position: fixed;
+    left: 650px;
+    top: 720px;
+    font-size: 26px;
+}
