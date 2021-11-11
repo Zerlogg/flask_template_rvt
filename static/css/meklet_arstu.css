@@ -100,7 +100,6 @@ body {
     font-size: 16px;
     top: -20px;
     left: 1000px;
-    font-size: 20px;
 }
 
 #parole {
@@ -114,7 +113,6 @@ body {
     font-size: 16px;
     top: 30px;
     left: 1000px;
-    font-size: 20px;
 }
 
 #vertical1 {
@@ -188,7 +186,7 @@ body {
 
 #darbibasJoma {
     position: fixed;
-    top: 435px;
+    top: 425px;
     font-size: 30px;
 }
 
@@ -273,7 +271,7 @@ body {
 
 #darbaJoma {
     position: fixed;
-    top: 830px;
+    top: 700px;
 }
 
 #darbaJoma2 {
